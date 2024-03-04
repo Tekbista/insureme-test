@@ -15,7 +15,7 @@ public class App
 {
     public static void main( String[] args ) throws InterruptedException
     {
-    	System.setProperty("webdriver.chrome.driver", "/home/ubuntu/chromedriver-linux64/chromedriver");
+    	System.setProperty("webdriver.chrome.driver", "../../home/ubuntu/chromedriver-linux64/chromedriver");
     	ChromeOptions chromeOptions = new ChromeOptions();
     	chromeOptions.addArguments("--headless");
 		//chromeOptions.addArguments("--no-sandbox");
