@@ -36,7 +36,7 @@ public class App
     	
     	System.out.println("Executing script...");
    	  
-	   	driver.get("http://18.215.43.254/contact.html");
+	   	driver.get("http://18.215.43.254:8081/contact.html");
 	   	driver.findElement(By.id("inputName")).sendKeys("Tek");
 	   	driver.findElement(By.id("inputNumber")).sendKeys("5132500234");
 	   	driver.findElement(By.id("inputMail")).sendKeys("hello@gmail.com");
